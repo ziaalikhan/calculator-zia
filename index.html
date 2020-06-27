@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div >
+            <input id="result"  class="input" placeholder="0" type="text">
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('%')">%</button>
+            <button onclick="clearResult()" class="btn">CE</button>
+            <button onclick="clearResult()" class="btn">C</button>
+            <button onclick="clearResult()" class="btn"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+        </div>
+        <div>
+            <button class="multiply" onclick="getNumber('7')">7</button>
+            <button class="multiply" onclick="getNumber('8')">8</button>
+            <button class="multiply" onclick="getNumber('9')">9</button>
+            <button class="multiply" onclick="getNumber('*')">x</button>
+        </div>
+        <div>
+            <button class="minus" onclick="getNumber('4')">4</button>
+            <button class="minus" onclick="getNumber('5')">5</button>
+            <button class="minus" onclick="getNumber('6')">6</button>
+            <button class="minus" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="plus" onclick="getNumber('1')">1</button>
+            <button class="plus" onclick="getNumber('2')">2</button>
+            <button class="plus" onclick="getNumber('3')">3</button>
+            <button class="plus" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            
+            <button class="dot" onclick="getNumber('0')">0</button>
+            <button class="dot" onclick="getNumber('.')">.</button>
+            <button class="dot1" onclick="getResult()" >=</button>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
